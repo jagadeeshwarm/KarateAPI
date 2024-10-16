@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.conduitTest" time="8.419" tests="3" errors="0" skipped="0" failures="3">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="conduitApp.conduitTest" time="8.333" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\jagan\APIKarateDSL\karate\target\test-classes;C:\Users\jagan\APIKarateDSL\karate\target\classes;C:\Users\jagan\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\jagan\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\jagan\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\jagan\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\jagan\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\jagan\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\jagan\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\jagan\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\jagan\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jagan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\jagan\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\jagan\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\jagan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\jagan\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\jagan\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jagan\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jagan\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\jagan\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\jagan\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\jagan\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\jagan\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jagan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="java.class.path" value="C:\Users\jagan\APIKarateDSL\karate\target\test-classes;C:\Users\jagan\APIKarateDSL\karate\target\classes;C:\Users\jagan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\jagan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\jagan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\jagan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\jagan\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\jagan\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\jagan\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\jagan\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\jagan\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\jagan\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\jagan\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\jagan\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jagan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\jagan\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\jagan\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\jagan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\jagan\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\jagan\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jagan\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jagan\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\jagan\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\jagan\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\jagan\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\jagan\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jagan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\jagan\AppData\Local\Temp\surefire5573606562056733197\surefirebooter-20241010105302497_3.jar C:\Users\jagan\AppData\Local\Temp\surefire5573606562056733197 2024-10-10T10-53-02_314-jvmRun1 surefire-20241010105302497_1tmp surefire_0-20241010105302497_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\jagan\AppData\Local\Temp\surefire5625950394003974322\surefirebooter-20241015153220235_3.jar C:\Users\jagan\AppData\Local\Temp\surefire5625950394003974322 2024-10-15T15-32-20_083-jvmRun1 surefire-20241015153220235_1tmp surefire_0-20241015153220235_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\jagan\APIKarateDSL\karate\target\test-classes;C:\Users\jagan\APIKarateDSL\karate\target\classes;C:\Users\jagan\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\jagan\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\jagan\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\jagan\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\jagan\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\jagan\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\jagan\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\jagan\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\jagan\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jagan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\jagan\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\jagan\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\jagan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\jagan\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\jagan\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jagan\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jagan\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\jagan\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\jagan\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\jagan\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\jagan\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jagan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\jagan\APIKarateDSL\karate\target\test-classes;C:\Users\jagan\APIKarateDSL\karate\target\classes;C:\Users\jagan\.m2\repository\com\github\javafaker\javafaker\1.0.2\javafaker-1.0.2.jar;C:\Users\jagan\.m2\repository\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\1.23\snakeyaml-1.23-android.jar;C:\Users\jagan\.m2\repository\com\github\mifmif\generex\1.0.2\generex-1.0.2.jar;C:\Users\jagan\.m2\repository\dk\brics\automaton\automaton\1.11-8\automaton-1.11-8.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-junit5\1.5.0\karate-junit5-1.5.0.jar;C:\Users\jagan\.m2\repository\io\karatelabs\karate-core\1.5.0\karate-core-1.5.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-scriptengine\24.0.0\js-scriptengine-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\polyglot\polyglot\24.0.0\polyglot-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\collections\24.0.0\collections-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\nativeimage\24.0.0\nativeimage-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\sdk\word\24.0.0\word-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\js\js-language\24.0.0\js-language-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\regex\regex\24.0.0\regex-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\truffle\truffle-api\24.0.0\truffle-api-24.0.0.jar;C:\Users\jagan\.m2\repository\org\graalvm\shadowed\icu4j\24.0.0\icu4j-24.0.0.jar;C:\Users\jagan\.m2\repository\org\thymeleaf\thymeleaf\3.1.2.RELEASE\thymeleaf-3.1.2.RELEASE.jar;C:\Users\jagan\.m2\repository\ognl\ognl\3.3.4\ognl-3.3.4.jar;C:\Users\jagan\.m2\repository\org\javassist\javassist\3.29.0-GA\javassist-3.29.0-GA.jar;C:\Users\jagan\.m2\repository\org\attoparser\attoparser\2.0.7.RELEASE\attoparser-2.0.7.RELEASE.jar;C:\Users\jagan\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar;C:\Users\jagan\.m2\repository\com\linecorp\armeria\armeria\1.29.2\armeria-1.29.2.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.1\jackson-core-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.1\jackson-annotations-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.1\jackson-databind-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.17.1\jackson-datatype-jdk8-2.17.1.jar;C:\Users\jagan\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.1\jackson-datatype-jsr310-2.17.1.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-core\1.13.0\micrometer-core-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-commons\1.13.0\micrometer-commons-1.13.0.jar;C:\Users\jagan\.m2\repository\io\micrometer\micrometer-observation\1.13.0\micrometer-observation-1.13.0.jar;C:\Users\jagan\.m2\repository\org\hdrhistogram\HdrHistogram\2.2.1\HdrHistogram-2.2.1.jar;C:\Users\jagan\.m2\repository\org\latencyutils\LatencyUtils\2.0.3\LatencyUtils-2.0.3.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport\4.1.110.Final\netty-transport-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-common\4.1.110.Final\netty-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-buffer\4.1.110.Final\netty-buffer-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver\4.1.110.Final\netty-resolver-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-haproxy\4.1.110.Final\netty-codec-haproxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec\4.1.110.Final\netty-codec-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http2\4.1.110.Final\netty-codec-http2-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler\4.1.110.Final\netty-handler-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-http\4.1.110.Final\netty-codec-http-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns\4.1.110.Final\netty-resolver-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-dns\4.1.110.Final\netty-codec-dns-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\jagan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\jagan\.m2\repository\io\netty\netty-handler-proxy\4.1.110.Final\netty-handler-proxy-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-codec-socks\4.1.110.Final\netty-codec-socks-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.110.Final\netty-transport-native-unix-common-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.110.Final\netty-transport-classes-epoll-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-epoll\4.1.110.Final\netty-transport-native-epoll-4.1.110.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.110.Final\netty-transport-classes-kqueue-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-classes-macos\4.1.110.Final\netty-resolver-dns-classes-macos-4.1.110.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.110.Final\netty-transport-native-kqueue-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-resolver-dns-native-macos\4.1.110.Final\netty-resolver-dns-native-macos-4.1.110.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-classes\2.0.65.Final\netty-tcnative-classes-2.0.65.Final.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-linux-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-x86_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-osx-aarch_64.jar;C:\Users\jagan\.m2\repository\io\netty\netty-tcnative-boringssl-static\2.0.65.Final\netty-tcnative-boringssl-static-2.0.65.Final-windows-x86_64.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\brotli4j\1.16.0\brotli4j-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\service\1.16.0\service-1.16.0.jar;C:\Users\jagan\.m2\repository\com\aayushatharva\brotli4j\native-windows-x86_64\1.16.0\native-windows-x86_64-1.16.0.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\jagan\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\jagan\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-classic\1.5.4\logback-classic-1.5.4.jar;C:\Users\jagan\.m2\repository\ch\qos\logback\logback-core\1.5.4\logback-core-1.5.4.jar;C:\Users\jagan\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.12\jcl-over-slf4j-2.0.12.jar;C:\Users\jagan\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\jagan\.m2\repository\org\antlr\antlr4-runtime\4.13.1\antlr4-runtime-4.13.1.jar;C:\Users\jagan\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\jagan\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\jagan\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\jagan\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\jagan\.m2\repository\de\siegmar\fastcsv\3.1.0\fastcsv-3.1.0.jar;C:\Users\jagan\.m2\repository\info\picocli\picocli\4.7.5\picocli-4.7.5.jar;C:\Users\jagan\.m2\repository\io\github\classgraph\classgraph\4.8.170\classgraph-4.8.170.jar;C:\Users\jagan\.m2\repository\io\github\t12y\resemble\1.1.0\resemble-1.1.0.jar;C:\Users\jagan\.m2\repository\io\github\t12y\ssim\1.0.0\ssim-1.0.0.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\jagan\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\jagan\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\jagan\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\jagan\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\jagan"/>
     <property name="user.language" value="en"/>
@@ -30,8 +30,8 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="karate.options" value="--tags=@Debug"/>
-    <property name="surefire.real.class.path" value="C:\Users\jagan\AppData\Local\Temp\surefire5573606562056733197\surefirebooter-20241010105302497_3.jar"/>
+    <property name="karate.options" value="--tags @test"/>
+    <property name="surefire.real.class.path" value="C:\Users\jagan\AppData\Local\Temp\surefire5625950394003974322\surefirebooter-20241015153220235_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.12+8-LTS-286"/>
@@ -57,33 +57,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="[1:14] New Articles" classname="conduitApp/feature/Articles" time="2.303">
-    <failure message="status code was: 422, expected: 201, response time in milliseconds: 361, url: https://conduit-api.bondaracademy.com/api/articles, response: &#10;{&quot;errors&quot;:{&quot;title&quot;:[&quot;must be unique&quot;]}}&#10;classpath:conduitApp/feature/Articles.feature:22" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 422, expected: 201, response time in milliseconds: 361, url: https://conduit-api.bondaracademy.com/api/articles, response: 
-{"errors":{"title":["must be unique"]}}
-classpath:conduitApp/feature/Articles.feature:22
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-    <system-out><![CDATA[10:53:04.105 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags=@Debug
-10:53:04.493 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-10:53:05.633 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:53:05.641 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-10:53:06.046 [main] DEBUG com.intuit.karate - request:
+  <testcase name="[1.1:47] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="1.655">
+    <system-out><![CDATA[15:32:21.525 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @test
+15:32:21.880 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:32:22.712 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:22.716 [main] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:32:23.001 [main] DEBUG com.intuit.karate - request:
 1 > POST https://conduit-api.bondaracademy.com/api/users/login
 1 > Content-Type: application/json; charset=UTF-8
 1 > Content-Length: 62
@@ -93,481 +72,454 @@ classpath:conduitApp/feature/Articles.feature:22
 1 > Accept-Encoding: gzip,deflate
 {"user":{"email":"karatej@gmail.com","password":"karate1234"}}
 
-10:53:06.975 [main] DEBUG com.intuit.karate - response time in milliseconds: 925
+15:32:23.786 [main] DEBUG com.intuit.karate - response time in milliseconds: 782
 1 < 200
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"133-mW0E6Vb/PKsLQeMU+wmSf1JZ5X0"
-1 < X-Cloud-Trace-Context: 1f21338c98a950d48bdc37c5a8fa2fe0;o=1
-1 < Date: Thu, 10 Oct 2024 05:23:06 GMT
+1 < etag: W/"133-yGO+EEEnNthC4G5CxloeryDvr/Q"
+1 < X-Cloud-Trace-Context: 84aee547bcabede442c8445adb63f3d2;o=1
+1 < Date: Tue, 15 Oct 2024 10:02:23 GMT
 1 < Server: Google Frontend
 1 < Content-Length: 307
-{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k"}}
+{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs"}}
 
-10:53:06.985 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-10:53:06.986 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k 
-10:53:06.997 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature') {"email":"karatej@gmail.com","password":"karate1234"}
-10:53:07.002 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/users/login
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k
+15:32:23.792 [main] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:32:23.794 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:23.924 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 62
+1 > Content-Length: 81
 1 > Host: conduit-api.bondaracademy.com
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
 1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"karatej@gmail.com","password":"karate1234"}}
+{"user":{"email":"colin89","password":"jagan@102419","username":"jagatest32123"}}
 
-10:53:07.461 [main] DEBUG com.intuit.karate - response time in milliseconds: 458
-1 < 200
-1 < x-powered-by: Express
-1 < access-control-allow-origin: https://conduit.bondaracademy.com
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"133-tL1P2Jf5jhFwl+J1spavSmBaCKI"
-1 < X-Cloud-Trace-Context: 4a36dbb5020fa3566f00f634a80463e5
-1 < Date: Thu, 10 Oct 2024 05:23:07 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 307
-{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg3LCJleHAiOjE3MzM3MjE3ODd9.VyWKz0PVg1aHSBZbbjStKU9kuLSbIX1A6kU4PNe3y24"}}
-
-10:53:07.471 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateToken.feature') {"email":"karatej@gmail.com","password":"karate1234"}
-10:53:07.475 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Content-Type: application/json; charset=UTF-8
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k
-1 > Content-Length: 122
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"test article11221","description":"test article2","body":"test article2","tagList":["test article4"]}}
-
-10:53:07.838 [main] DEBUG com.intuit.karate - response time in milliseconds: 361
+15:32:24.288 [main] DEBUG com.intuit.karate - response time in milliseconds: 363
 1 < 422
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"27-BNeuaWQ7DHvW/r+pl+qdJiF06Is"
-1 < X-Cloud-Trace-Context: 661c70447157587cfa7ad876f61bb500
-1 < Date: Thu, 10 Oct 2024 05:23:07 GMT
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: d4f70673f7c8d2579c17fa9ed63191ab
+1 < Date: Tue, 15 Oct 2024 10:02:24 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 39
-{"errors":{"title":["must be unique"]}}
-
-10:53:07.848 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:22
-And status 201
-status code was: 422, expected: 201, response time in milliseconds: 361, url: https://conduit-api.bondaracademy.com/api/articles, response: 
-{"errors":{"title":["must be unique"]}}
-classpath:conduitApp/feature/Articles.feature:22
-]]></system-out>
-  </testcase>
-  <testcase name="[2:25] Create, Get and Delete Article" classname="conduitApp/feature/Articles" time="1.607">
-    <failure message="js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: [&apos;articles&apos;, articleId  // Correctly formatted path for deletion]&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof&#10;[&apos;articles&apos;, articleId  // Correctly formatted path for deletion]&#10;                                                                 ^&#10;&#10;- org.graalvm.polyglot.Context.eval(Context.java:428)&#10;- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)&#10;- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)&#10;- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)&#10;- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)&#10;- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)&#10;- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#10;classpath:conduitApp/feature/Articles.feature:52" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-js failed:
->>>>
-01: ['articles', articleId  // Correctly formatted path for deletion]
-<<<<
-org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof
-['articles', articleId  // Correctly formatted path for deletion]
-                                                                 ^
-
-- org.graalvm.polyglot.Context.eval(Context.java:428)
-- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
-- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
-- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
-- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
-- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
-- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-
-classpath:conduitApp/feature/Articles.feature:52
-	at com.intuit.karate.junit5.FeatureNode.lambda$next$1(FeatureNode.java:86)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEachOrdered(ReferencePipeline.java:601)
-	at java.base/java.util.Optional.ifPresent(Optional.java:178)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-    <system-out><![CDATA[10:53:07.879 [main] INFO  com.intuit.karate - karate.env system property was: null 
-10:53:07.881 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k 
-10:53:07.896 [main] INFO  com.intuit.karate - [print] Unique Title: Jaga 1728537787890 
-10:53:07.897 [main] INFO  com.intuit.karate - [print] Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg3LCJleHAiOjE3MzM3MjE3ODd9.VyWKz0PVg1aHSBZbbjStKU9kuLSbIX1A6kU4PNe3y24 
-10:53:07.899 [main] INFO  com.intuit.karate - [print] Request payload: {
-  "article": {
-    "title": "Jaga 1728537787890",
-    "description": "Jaga 1728537787890",
-    "body": "Jaga 1728537787890",
-    "tagList": [
-      "Jaga 1728537787890"
-    ]
-  }
-}
- 
-10:53:07.902 [main] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Content-Type: application/json; charset=UTF-8
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k
-1 > Content-Length: 138
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"Jaga 1728537787890","description":"Jaga 1728537787890","body":"Jaga 1728537787890","tagList":["Jaga 1728537787890"]}}
-
-10:53:08.333 [main] DEBUG com.intuit.karate - response time in milliseconds: 429
-1 < 201
-1 < x-powered-by: Express
-1 < access-control-allow-origin: https://conduit.bondaracademy.com
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"1a4-ekGe0XtSdoB6qTsIg1+mQtE93E8"
-1 < X-Cloud-Trace-Context: 46485d725be70f6a7e4ba0870c716757
-1 < Date: Thu, 10 Oct 2024 05:23:08 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 420
-{"article":{"slug":"Jaga-1728537787890-9546","title":"Jaga 1728537787890","description":"Jaga 1728537787890","body":"Jaga 1728537787890","tagList":["Jaga 1728537787890"],"createdAt":"2024-10-10T05:23:08.139Z","updatedAt":"2024-10-10T05:23:08.139Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
-
-10:53:08.336 [main] INFO  com.intuit.karate - [print] Response: {
-  "article": {
-    "slug": "Jaga-1728537787890-9546",
-    "title": "Jaga 1728537787890",
-    "description": "Jaga 1728537787890",
-    "body": "Jaga 1728537787890",
-    "tagList": [
-      "Jaga 1728537787890"
-    ],
-    "createdAt": "2024-10-10T05:23:08.139Z",
-    "updatedAt": "2024-10-10T05:23:08.139Z",
-    "favorited": false,
-    "favoritesCount": 0,
-    "author": {
-      "username": "karatej",
-      "bio": null,
-      "image": "https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg",
-      "following": false
-    }
-  }
-}
- 
-10:53:08.350 [main] INFO  com.intuit.karate - [print] Article ID: Jaga-1728537787890-9546 
-10:53:08.356 [main] DEBUG com.intuit.karate - request:
-2 > GET https://conduit-api.bondaracademy.com/api/articles?limit=10&offset=0
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3Nzg2LCJleHAiOjE3MzM3MjE3ODZ9.RHs-2-FBXfavaSUnr7iUueyIRRCcTs9k0nepX_-aF1k
-2 > Host: conduit-api.bondaracademy.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-2 > Accept-Encoding: gzip,deflate
-
-
-10:53:08.840 [main] DEBUG com.intuit.karate - response time in milliseconds: 483
-2 < 200
-2 < x-powered-by: Express
-2 < access-control-allow-origin: https://conduit.bondaracademy.com
-2 < vary: Origin
-2 < content-type: application/json; charset=utf-8
-2 < etag: W/"100a-LtwogBWDECq+YSYDVa1p2WKi5QY"
-2 < X-Cloud-Trace-Context: c96240c1ae52b02882d5307e29491b1f
-2 < Date: Thu, 10 Oct 2024 05:23:08 GMT
-2 < Server: Google Frontend
-2 < Content-Length: 4106
-{"articles":[{"slug":"Jaga-1728537787890-9546","title":"Jaga 1728537787890","description":"Jaga 1728537787890","body":"Jaga 1728537787890","tagList":["Jaga 1728537787890"],"createdAt":"2024-10-10T05:23:08.139Z","updatedAt":"2024-10-10T05:23:08.139Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460326672-9546","title":"Jaga 1728460326672","description":"Jaga 1728460326672","body":"Jaga 1728460326672","tagList":["Jaga 1728460326672"],"createdAt":"2024-10-09T07:52:06.940Z","updatedAt":"2024-10-09T07:52:06.940Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460324004-9546","title":"Jaga 1728460324004","description":"Jaga 1728460324004","body":"Jaga 1728460324004","tagList":["Jaga 1728460324004"],"createdAt":"2024-10-09T07:52:04.294Z","updatedAt":"2024-10-09T07:52:04.294Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test-article11221-9546","title":"test article11221","description":"test article2","body":"test article2","tagList":["test article4"],"createdAt":"2024-10-09T07:52:03.807Z","updatedAt":"2024-10-09T07:52:03.807Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460243951-9546","title":"Jaga 1728460243951","description":"Jaga 1728460243951","body":"Jaga 1728460243951","tagList":["Jaga 1728460243951"],"createdAt":"2024-10-09T07:50:44.228Z","updatedAt":"2024-10-09T07:50:44.228Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460241281-9546","title":"Jaga 1728460241281","description":"Jaga 1728460241281","body":"Jaga 1728460241281","tagList":["Jaga 1728460241281"],"createdAt":"2024-10-09T07:50:41.559Z","updatedAt":"2024-10-09T07:50:41.559Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728455237696-9546","title":"Jaga 1728455237696","description":"Jaga 1728455237696","body":"Jaga 1728455237696","tagList":["Jaga 1728455237696"],"createdAt":"2024-10-09T06:27:17.962Z","updatedAt":"2024-10-09T06:27:17.962Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728454784753-9546","title":"Jaga 1728454784753","description":"Jaga 1728454784753","body":"Jaga 1728454784753","tagList":["Jaga 1728454784753"],"createdAt":"2024-10-09T06:19:45.004Z","updatedAt":"2024-10-09T06:19:45.004Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728379153017-9546","title":"Jaga 1728379153017","description":"Jaga 1728379153017","body":"Jaga 1728379153017","tagList":["Jaga 1728379153017"],"createdAt":"2024-10-08T09:19:12.074Z","updatedAt":"2024-10-08T09:19:12.074Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728376115214-9546","title":"Jaga 1728376115214","description":"Jaga 1728376115214","body":"Jaga 1728376115214","tagList":["Jaga 1728376115214"],"createdAt":"2024-10-08T08:28:34.240Z","updatedAt":"2024-10-08T08:28:34.240Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":45}
-
-10:53:08.869 [main] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:52
-Given path 'articles', articleId  // Correctly formatted path for deletion
-js failed:
->>>>
-01: ['articles', articleId  // Correctly formatted path for deletion]
-<<<<
-org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof
-['articles', articleId  // Correctly formatted path for deletion]
-                                                                 ^
-
-- org.graalvm.polyglot.Context.eval(Context.java:428)
-- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
-- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
-- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
-- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
-- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
-- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-
-classpath:conduitApp/feature/Articles.feature:52
----------------------------------------------------------
-feature: classpath:conduitApp/feature/Articles.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 1.8388
----------------------------------------------------------
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
 
 ]]></system-out>
   </testcase>
-  <testcase name="testParallel" classname="conduitApp.conduitTest" time="2.42">
-    <failure message="status code was: 422, expected: 201, response time in milliseconds: 349, url: https://conduit-api.bondaracademy.com/api/articles, response: &#10;{&quot;errors&quot;:{&quot;title&quot;:[&quot;must be unique&quot;]}}&#10;classpath:conduitApp/feature/Articles.feature:22&#10;js failed:&#10;&gt;&gt;&gt;&gt;&#10;01: [&apos;articles&apos;, articleId  // Correctly formatted path for deletion]&#10;&lt;&lt;&lt;&lt;&#10;org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof&#10;[&apos;articles&apos;, articleId  // Correctly formatted path for deletion]&#10;                                                                 ^&#10;&#10;- org.graalvm.polyglot.Context.eval(Context.java:428)&#10;- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)&#10;- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)&#10;- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)&#10;- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)&#10;- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)&#10;- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;&#10;classpath:conduitApp/feature/Articles.feature:52 ==&gt; expected: &lt;0&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: 
-status code was: 422, expected: 201, response time in milliseconds: 349, url: https://conduit-api.bondaracademy.com/api/articles, response: 
-{"errors":{"title":["must be unique"]}}
-classpath:conduitApp/feature/Articles.feature:22
-js failed:
->>>>
-01: ['articles', articleId  // Correctly formatted path for deletion]
-<<<<
-org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof
-['articles', articleId  // Correctly formatted path for deletion]
-                                                                 ^
-
-- org.graalvm.polyglot.Context.eval(Context.java:428)
-- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
-- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
-- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
-- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
-- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
-- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-
-classpath:conduitApp/feature/Articles.feature:52 ==> expected: <0> but was: <2>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
-	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:150)
-	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:563)
-	at conduitApp.conduitTest.testParallel(conduitTest.java:17)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-]]></failure>
-    <system-out><![CDATA[10:53:09.495 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags=@Debug
-10:53:09.668 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
-10:53:09.674 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728537789670
-10:53:09.676 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
-10:53:09.701 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
-10:53:09.701 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
-10:53:09.702 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
-10:53:09.709 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/users/login
+  <testcase name="[1.2:48] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.424">
+    <system-out><![CDATA[15:32:24.317 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:24.319 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:24.362 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
 1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 62
+1 > Content-Length: 95
 1 > Host: conduit-api.bondaracademy.com
 1 > Connection: Keep-Alive
 1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
 1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"karatej@gmail.com","password":"karate1234"}}
+{"user":{"email":"jagatesttt1@gmail.com","password":"jagan@102419","username":"loni.reynolds"}}
 
-10:53:10.173 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 463
-1 < 200
-1 < x-powered-by: Express
-1 < access-control-allow-origin: https://conduit.bondaracademy.com
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"133-ufDXg+x1BBndzPWpincdSeKE9R8"
-1 < X-Cloud-Trace-Context: dd96b34f941121354e9376c48e868c84
-1 < Date: Thu, 10 Oct 2024 05:23:10 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 307
-{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY"}}
-
-10:53:10.175 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
-10:53:10.176 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 474 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
-10:53:10.176 [pool-2-thread-1] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY 
-10:53:10.176 [pool-2-thread-2] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY 
-10:53:10.179 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:helpers/CreateToken.feature') {"email":"karatej@gmail.com","password":"karate1234"}
-10:53:10.185 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/users/login
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY
-1 > Content-Type: application/json; charset=UTF-8
-1 > Content-Length: 62
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"user":{"email":"karatej@gmail.com","password":"karate1234"}}
-
-10:53:10.650 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 455
-1 < 200
-1 < x-powered-by: Express
-1 < access-control-allow-origin: https://conduit.bondaracademy.com
-1 < vary: Origin
-1 < content-type: application/json; charset=utf-8
-1 < etag: W/"133-ufDXg+x1BBndzPWpincdSeKE9R8"
-1 < X-Cloud-Trace-Context: fa56517f47facb2d9a78766fba9b8acc
-1 < Date: Thu, 10 Oct 2024 05:23:10 GMT
-1 < Server: Google Frontend
-1 < Content-Length: 307
-{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY"}}
-
-10:53:10.652 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:helpers/CreateToken.feature') {"email":"karatej@gmail.com","password":"karate1234"}
-10:53:10.652 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 472 milliseconds for callonce lock: read('classpath:helpers/CreateToken.feature') {"email":"karatej@gmail.com","password":"karate1234"}
-10:53:10.655 [pool-2-thread-2] INFO  com.intuit.karate - [print] Unique Title: Jaga 1728537790654 
-10:53:10.655 [pool-2-thread-1] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Content-Type: application/json; charset=UTF-8
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY
-1 > Content-Length: 122
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"test article11221","description":"test article2","body":"test article2","tagList":["test article4"]}}
-
-10:53:10.656 [pool-2-thread-2] INFO  com.intuit.karate - [print] Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY 
-10:53:10.657 [pool-2-thread-2] INFO  com.intuit.karate - [print] Request payload: {
-  "article": {
-    "title": "Jaga 1728537790654",
-    "description": "Jaga 1728537790654",
-    "body": "Jaga 1728537790654",
-    "tagList": [
-      "Jaga 1728537790654"
-    ]
-  }
-}
- 
-10:53:10.660 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-1 > POST https://conduit-api.bondaracademy.com/api/articles
-1 > Content-Type: application/json; charset=UTF-8
-1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY
-1 > Content-Length: 138
-1 > Host: conduit-api.bondaracademy.com
-1 > Connection: Keep-Alive
-1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-1 > Accept-Encoding: gzip,deflate
-{"article":{"title":"Jaga 1728537790654","description":"Jaga 1728537790654","body":"Jaga 1728537790654","tagList":["Jaga 1728537790654"]}}
-
-10:53:11.004 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 349
+15:32:24.722 [main] DEBUG com.intuit.karate - response time in milliseconds: 358
 1 < 422
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"27-BNeuaWQ7DHvW/r+pl+qdJiF06Is"
-1 < X-Cloud-Trace-Context: 544c47d8673b598ac5bc286e8719e8d3
-1 < Date: Thu, 10 Oct 2024 05:23:10 GMT
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 56832507b9192d96e1def8da097c06f2
+1 < Date: Tue, 15 Oct 2024 10:02:24 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 39
-{"errors":{"title":["must be unique"]}}
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
 
-10:53:11.005 [pool-2-thread-1] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:22
-And status 201
-status code was: 422, expected: 201, response time in milliseconds: 349, url: https://conduit-api.bondaracademy.com/api/articles, response: 
-{"errors":{"title":["must be unique"]}}
-classpath:conduitApp/feature/Articles.feature:22
-10:53:11.103 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 442
-1 < 201
+]]></system-out>
+  </testcase>
+  <testcase name="[1.3:49] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.39">
+    <system-out><![CDATA[15:32:24.738 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:24.738 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:24.765 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"jagan@102419","username":"lon.shields"}}
+
+15:32:25.117 [main] DEBUG com.intuit.karate - response time in milliseconds: 350
+1 < 422
 1 < x-powered-by: Express
 1 < access-control-allow-origin: https://conduit.bondaracademy.com
 1 < vary: Origin
 1 < content-type: application/json; charset=utf-8
-1 < etag: W/"1a4-yl/3nO+4OXnoapmlvr3cEYwDdn4"
-1 < X-Cloud-Trace-Context: 48dc0d7322f98319752e9e1c72150ac4
-1 < Date: Thu, 10 Oct 2024 05:23:10 GMT
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 3c3d39273a6134bdd4306d9cd2511585
+1 < Date: Tue, 15 Oct 2024 10:02:24 GMT
 1 < Server: Google Frontend
-1 < Content-Length: 420
-{"article":{"slug":"Jaga-1728537790654-9546","title":"Jaga 1728537790654","description":"Jaga 1728537790654","body":"Jaga 1728537790654","tagList":["Jaga 1728537790654"],"createdAt":"2024-10-10T05:23:10.900Z","updatedAt":"2024-10-10T05:23:10.900Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}}
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
 
-10:53:11.105 [pool-2-thread-2] INFO  com.intuit.karate - [print] Response: {
-  "article": {
-    "slug": "Jaga-1728537790654-9546",
-    "title": "Jaga 1728537790654",
-    "description": "Jaga 1728537790654",
-    "body": "Jaga 1728537790654",
-    "tagList": [
-      "Jaga 1728537790654"
-    ],
-    "createdAt": "2024-10-10T05:23:10.900Z",
-    "updatedAt": "2024-10-10T05:23:10.900Z",
-    "favorited": false,
-    "favoritesCount": 0,
-    "author": {
-      "username": "karatej",
-      "bio": null,
-      "image": "https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg",
-      "following": false
-    }
-  }
-}
- 
-10:53:11.107 [pool-2-thread-2] INFO  com.intuit.karate - [print] Article ID: Jaga-1728537790654-9546 
-10:53:11.109 [pool-2-thread-2] DEBUG com.intuit.karate - request:
-2 > GET https://conduit-api.bondaracademy.com/api/articles?limit=10&offset=0
-2 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4NTM3NzkwLCJleHAiOjE3MzM3MjE3OTB9.ZwZJZGkCxfh0b0JtPctCUhC_PDS03FxWijjXIzva0YY
-2 > Host: conduit-api.bondaracademy.com
-2 > Connection: Keep-Alive
-2 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
-2 > Accept-Encoding: gzip,deflate
+]]></system-out>
+  </testcase>
+  <testcase name="[1.4:50] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.396">
+    <system-out><![CDATA[15:32:25.129 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:25.131 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:25.157 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 68
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jorge19","password":"jagan@102419","username":""}}
 
+15:32:25.512 [main] DEBUG com.intuit.karate - response time in milliseconds: 353
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: edc7eda825eaf49f4dffb01b418f85b8
+1 < Date: Tue, 15 Oct 2024 10:02:25 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
 
-10:53:11.614 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 504
-2 < 200
-2 < x-powered-by: Express
-2 < access-control-allow-origin: https://conduit.bondaracademy.com
-2 < vary: Origin
-2 < content-type: application/json; charset=utf-8
-2 < etag: W/"100a-I+AyMYt3bAeSY3id3ss2fGZmzK4"
-2 < X-Cloud-Trace-Context: b89936f597029cfe32386788ff5685b0
-2 < Date: Thu, 10 Oct 2024 05:23:11 GMT
-2 < Server: Google Frontend
-2 < Content-Length: 4106
-{"articles":[{"slug":"Jaga-1728537790654-9546","title":"Jaga 1728537790654","description":"Jaga 1728537790654","body":"Jaga 1728537790654","tagList":["Jaga 1728537790654"],"createdAt":"2024-10-10T05:23:10.900Z","updatedAt":"2024-10-10T05:23:10.900Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728537787890-9546","title":"Jaga 1728537787890","description":"Jaga 1728537787890","body":"Jaga 1728537787890","tagList":["Jaga 1728537787890"],"createdAt":"2024-10-10T05:23:08.139Z","updatedAt":"2024-10-10T05:23:08.139Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460326672-9546","title":"Jaga 1728460326672","description":"Jaga 1728460326672","body":"Jaga 1728460326672","tagList":["Jaga 1728460326672"],"createdAt":"2024-10-09T07:52:06.940Z","updatedAt":"2024-10-09T07:52:06.940Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460324004-9546","title":"Jaga 1728460324004","description":"Jaga 1728460324004","body":"Jaga 1728460324004","tagList":["Jaga 1728460324004"],"createdAt":"2024-10-09T07:52:04.294Z","updatedAt":"2024-10-09T07:52:04.294Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"test-article11221-9546","title":"test article11221","description":"test article2","body":"test article2","tagList":["test article4"],"createdAt":"2024-10-09T07:52:03.807Z","updatedAt":"2024-10-09T07:52:03.807Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460243951-9546","title":"Jaga 1728460243951","description":"Jaga 1728460243951","body":"Jaga 1728460243951","tagList":["Jaga 1728460243951"],"createdAt":"2024-10-09T07:50:44.228Z","updatedAt":"2024-10-09T07:50:44.228Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728460241281-9546","title":"Jaga 1728460241281","description":"Jaga 1728460241281","body":"Jaga 1728460241281","tagList":["Jaga 1728460241281"],"createdAt":"2024-10-09T07:50:41.559Z","updatedAt":"2024-10-09T07:50:41.559Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728455237696-9546","title":"Jaga 1728455237696","description":"Jaga 1728455237696","body":"Jaga 1728455237696","tagList":["Jaga 1728455237696"],"createdAt":"2024-10-09T06:27:17.962Z","updatedAt":"2024-10-09T06:27:17.962Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728454784753-9546","title":"Jaga 1728454784753","description":"Jaga 1728454784753","body":"Jaga 1728454784753","tagList":["Jaga 1728454784753"],"createdAt":"2024-10-09T06:19:45.004Z","updatedAt":"2024-10-09T06:19:45.004Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}},{"slug":"Jaga-1728379153017-9546","title":"Jaga 1728379153017","description":"Jaga 1728379153017","body":"Jaga 1728379153017","tagList":["Jaga 1728379153017"],"createdAt":"2024-10-08T09:19:12.074Z","updatedAt":"2024-10-08T09:19:12.074Z","favorited":false,"favoritesCount":0,"author":{"username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","following":false}}],"articlesCount":46}
+]]></system-out>
+  </testcase>
+  <testcase name="[1.5:51] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.399">
+    <system-out><![CDATA[15:32:25.528 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:25.530 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:25.554 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"jagan@102419","username":""}}
 
-10:53:11.623 [pool-2-thread-2] ERROR com.intuit.karate - classpath:conduitApp/feature/Articles.feature:52
-Given path 'articles', articleId  // Correctly formatted path for deletion
-js failed:
->>>>
-01: ['articles', articleId  // Correctly formatted path for deletion]
-<<<<
-org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof
-['articles', articleId  // Correctly formatted path for deletion]
-                                                                 ^
+15:32:25.915 [main] DEBUG com.intuit.karate - response time in milliseconds: 359
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: c9115a5c98495f43af0024e5cde9a801
+1 < Date: Tue, 15 Oct 2024 10:02:25 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
 
-- org.graalvm.polyglot.Context.eval(Context.java:428)
-- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
-- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
-- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
-- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
-- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
-- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+]]></system-out>
+  </testcase>
+  <testcase name="[1.6:52] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.39">
+    <system-out><![CDATA[15:32:25.925 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:25.925 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:25.949 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"","username":""}}
 
-classpath:conduitApp/feature/Articles.feature:52
+15:32:26.305 [main] DEBUG com.intuit.karate - response time in milliseconds: 354
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 1cab0fc255ef0f9af6b32d9add035d2f
+1 < Date: Tue, 15 Oct 2024 10:02:26 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+]]></system-out>
+  </testcase>
+  <testcase name="[1.7:53] New user Sign up" classname="conduitApp/feature/ConduitSignup" time="0.973">
+    <system-out><![CDATA[15:32:26.321 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:26.321 [main] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs 
+15:32:26.338 [main] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQzLCJleHAiOjE3MzQxNzA1NDN9.4h0ZbrbcRKBx2YL1L08hnZCjPdBPgtkmSTgt3Fxi4gs
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 70
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"carlo82","password":"jagan@102419","username":"ja"}}
+
+15:32:26.696 [main] DEBUG com.intuit.karate - response time in milliseconds: 357
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: fd9920e0c7b0849018530aa07bf7d6b2
+1 < Date: Tue, 15 Oct 2024 10:02:26 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
 ---------------------------------------------------------
-feature: classpath:conduitApp/feature/Articles.feature
-scenarios:  2 | passed:  0 | failed:  2 | time: 2.2699
+feature: classpath:conduitApp/feature/ConduitSignup.feature
+scenarios:  7 | passed:  7 | failed:  0 | time: 2.8144
 ---------------------------------------------------------
 
-10:53:11.804 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (1 remaining) classpath:conduitApp/feature/Articles.feature
+]]></system-out>
+  </testcase>
+  <testcase name="testParallel" classname="conduitApp.conduitTest" time="2.006">
+    <system-out><![CDATA[15:32:27.301 [main] INFO  com.intuit.karate.Runner - using system property 'karate.options': --tags @test
+15:32:27.464 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:32:27.468 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728986547464
+15:32:27.469 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+15:32:27.496 [pool-2-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:27.497 [pool-2-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:27.497 [pool-2-thread-1] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+15:32:27.510 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users/login
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 62
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"karatej@gmail.com","password":"karate1234"}}
+
+15:32:27.511 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:27.511 [pool-2-thread-5] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:27.511 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:27.976 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 465
+1 < 200
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"133-fIkFJJFhbZggohAvf+1I+E/h7wQ"
+1 < X-Cloud-Trace-Context: c9c550d8a07385204fd9a3d583886413
+1 < Date: Tue, 15 Oct 2024 10:02:27 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 307
+{"user":{"email":"karatej@gmail.com","username":"karatej","bio":null,"image":"https://conduit-api.bondaracademy.com/images/smiley-cyrus.jpeg","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U"}}
+
+15:32:27.980 [pool-2-thread-1] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:helpers/CreateToken.feature
+15:32:27.981 [pool-2-thread-3] WARN  com.intuit.karate - this thread waited 468 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+15:32:27.981 [pool-2-thread-1] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:27.982 [pool-2-thread-3] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:27.982 [pool-2-thread-5] WARN  com.intuit.karate - this thread waited 468 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+15:32:27.983 [pool-2-thread-5] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:27.983 [pool-2-thread-4] WARN  com.intuit.karate - this thread waited 470 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+15:32:27.984 [pool-2-thread-2] WARN  com.intuit.karate - this thread waited 486 milliseconds for callSingle lock: classpath:helpers/CreateToken.feature
+15:32:27.985 [pool-2-thread-4] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:27.985 [pool-2-thread-2] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:28.054 [pool-2-thread-1] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 81
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"donald1","password":"jagan@102419","username":"jagatest32123"}}
+
+15:32:28.057 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 72
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"georgianne1","password":"jagan@102419","username":""}}
+
+15:32:28.057 [pool-2-thread-2] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 97
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"jagatesttt1@gmail.com","password":"jagan@102419","username":"cherri.oconnell"}}
+
+15:32:28.057 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 83
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"jagan@102419","username":"mohammad.runolfsdottir"}}
+
+15:32:28.057 [pool-2-thread-5] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 61
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"jagan@102419","username":""}}
+
+15:32:28.413 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 353
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2a-AIsgLw77Dx1RWMepi6jZReyj6jg"
+1 < X-Cloud-Trace-Context: 5cdf26d31fcb5dc5866cabd1c239c86d
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 42
+{"errors":{"username":["can't be blank"]}}
+
+15:32:28.413 [pool-2-thread-2] DEBUG com.intuit.karate - response time in milliseconds: 353
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"2f-BJEnYqgmLwV4NGkXB9OccFtans4"
+1 < X-Cloud-Trace-Context: 03b3b041abffd3ffcbf60b074b20f8a3
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 47
+{"errors":{"email":["has already been taken"]}}
+
+15:32:28.414 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 355
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 344fa057a4940ae9e74e87ab86503390
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+15:32:28.420 [pool-2-thread-5] DEBUG com.intuit.karate - response time in milliseconds: 362
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 5a399405e98c8a04d23faecd073edec8
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+15:32:28.420 [pool-2-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 365
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: 81d47e4f3d7be4b11837de914d40ce45
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+15:32:28.422 [pool-2-thread-4] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:28.422 [pool-2-thread-3] INFO  com.intuit.karate - karate.env system property was: null 
+15:32:28.423 [pool-2-thread-4] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:28.423 [pool-2-thread-3] INFO  com.intuit.karate - Access Token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U 
+15:32:28.460 [pool-2-thread-3] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 71
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"lavada78","password":"jagan@102419","username":"ja"}}
+
+15:32:28.461 [pool-2-thread-4] DEBUG com.intuit.karate - request:
+1 > POST https://conduit-api.bondaracademy.com/api/users
+1 > Authorization: Token eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjo5NTQ2fSwiaWF0IjoxNzI4OTg2NTQ3LCJleHAiOjE3MzQxNzA1NDd9.kIgxLItt7tLgiUdMdFOEkXPoZeoE2rY8ACH4eYKm5-U
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 49
+1 > Host: conduit-api.bondaracademy.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.12)
+1 > Accept-Encoding: gzip,deflate
+{"user":{"email":"","password":"","username":""}}
+
+15:32:28.820 [pool-2-thread-4] DEBUG com.intuit.karate - response time in milliseconds: 357
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"27-t1Jmbh6zWQl9abIACseOZh9CIII"
+1 < X-Cloud-Trace-Context: 3d09259e271d75d53c8524dab6c2d52f
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 39
+{"errors":{"email":["can't be blank"]}}
+
+15:32:28.950 [pool-2-thread-3] DEBUG com.intuit.karate - response time in milliseconds: 488
+1 < 422
+1 < x-powered-by: Express
+1 < access-control-allow-origin: https://conduit.bondaracademy.com
+1 < vary: Origin
+1 < content-type: application/json; charset=utf-8
+1 < etag: W/"32-JsHJTKwNHW5NSVjFTl5ds7a++54"
+1 < X-Cloud-Trace-Context: f0fd958bb420ebbdb29b905dad27b245
+1 < Date: Tue, 15 Oct 2024 10:02:28 GMT
+1 < Server: Google Frontend
+1 < Content-Length: 50
+{"errors":{"username":["has already been taken"]}}
+
+---------------------------------------------------------
+feature: classpath:conduitApp/feature/ConduitSignup.feature
+scenarios:  7 | passed:  7 | failed:  0 | time: 3.0763
+---------------------------------------------------------
+
+15:32:29.174 [pool-3-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (1 remaining) classpath:conduitApp/feature/ConduitSignup.feature
 Karate version: 1.5.0
 ======================================================
-elapsed:   2.31 | threads:    5 | thread time: 2.27 
-features:     1 | skipped:    1 | efficiency: 0.20
-scenarios:    2 | passed:     0 | failed: 2
+elapsed:   1.87 | threads:    5 | thread time: 3.08 
+features:     1 | skipped:    2 | efficiency: 0.33
+scenarios:    7 | passed:     7 | failed: 0
 ======================================================
->>> failed features:
-status code was: 422, expected: 201, response time in milliseconds: 349, url: https://conduit-api.bondaracademy.com/api/articles, response: 
-{"errors":{"title":["must be unique"]}}
-classpath:conduitApp/feature/Articles.feature:22
-js failed:
->>>>
-01: ['articles', articleId  // Correctly formatted path for deletion]
-<<<<
-org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:65 Expected comma but found eof
-['articles', articleId  // Correctly formatted path for deletion]
-                                                                 ^
-
-- org.graalvm.polyglot.Context.eval(Context.java:428)
-- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
-- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
-- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
-- com.intuit.karate.core.ScenarioEngine.path(ScenarioEngine.java:372)
-- com.intuit.karate.ScenarioActions.path(ScenarioActions.java:80)
-- java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-
-classpath:conduitApp/feature/Articles.feature:52
-<<<
 
 HTML report: (paste into browser to view) | Karate version: 1.5.0
 file:///C:/Users/jagan/APIKarateDSL/karate/target/karate-reports/karate-summary.html

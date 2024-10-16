@@ -2,7 +2,7 @@
 Feature: Articles Creation
 
 Background:Define url
-     Given url 'https://conduit-api.bondaracademy.com/api/'
+     Given url apiUrl
     # Given path 'users/login'
     # And request {"user":{"email":"karatej@gmail.com","password":"karate1234"}}
     # When method Post
@@ -15,12 +15,12 @@ Scenario: New Articles
 
 
     # Given header Authorization = 'Token ' + token
-    And request {"article":{"title":"test article11221","description":"test article2","body":"test article2","tagList":["test article4"]}}
+    And request {"article":{"title":"test article113621","description":"test article2","body":"test article2","tagList":["test article4"]}}
     And header Content-Type = 'application/json'
     Given path 'articles/'
     When method Post
     And status 201
-    And match response.article.title == 'test article11221' 
+    And match response.article.title == 'test article113621' 
 
 Scenario: Create, Get and Delete Article
 

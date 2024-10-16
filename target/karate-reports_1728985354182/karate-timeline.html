@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="res/vis.min.js"></script>
+    <link href="res/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"pool-2-thread-1","id":1},{"content":"pool-2-thread-2","id":2},{"content":"pool-2-thread-3","id":3},{"content":"pool-2-thread-4","id":4},{"content":"pool-2-thread-5","id":5}];
+var items = [{"id":1,"group":1,"content":"conduitApp\/feature\/ConduitSignup[1.1:46]","start":1728985073438,"end":1728985074983,"title":"conduitApp\/feature\/ConduitSignup[1.1:46] 15:07:53.438-15:07:54.983 New user Sign up","className":"failed"},{"id":2,"group":2,"content":"conduitApp\/feature\/ConduitSignup[1.2:47]","start":1728985073439,"end":1728985074706,"title":"conduitApp\/feature\/ConduitSignup[1.2:47] 15:07:53.439-15:07:54.706 New user Sign up","className":"failed"},{"id":3,"group":3,"content":"conduitApp\/feature\/ConduitSignup[1.3:48]","start":1728985073441,"end":1728985074985,"title":"conduitApp\/feature\/ConduitSignup[1.3:48] 15:07:53.441-15:07:54.985 New user Sign up","className":"failed"},{"id":4,"group":4,"content":"conduitApp\/feature\/ConduitSignup[1.4:49]","start":1728985073438,"end":1728985074664,"title":"conduitApp\/feature\/ConduitSignup[1.4:49] 15:07:53.438-15:07:54.664 New user Sign up","className":"failed"},{"id":5,"group":5,"content":"conduitApp\/feature\/ConduitSignup[1.5:50]","start":1728985073444,"end":1728985074812,"title":"conduitApp\/feature\/ConduitSignup[1.5:50] 15:07:53.444-15:07:54.812 New user Sign up","className":"failed"},{"id":6,"group":4,"content":"conduitApp\/feature\/ConduitSignup[1.6:51]","start":1728985074669,"end":1728985075292,"title":"conduitApp\/feature\/ConduitSignup[1.6:51] 15:07:54.669-15:07:55.292 New user Sign up","className":"failed"},{"id":7,"group":2,"content":"conduitApp\/feature\/ConduitSignup[1.7:52]","start":1728985074709,"end":1728985075315,"title":"conduitApp\/feature\/ConduitSignup[1.7:52] 15:07:54.709-15:07:55.315 New user Sign up","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

@@ -15,7 +15,16 @@
         <karate.version>1.5.0</karate.version>
     </properties>    
 
-    <dependencies>         
+    <dependencies>   
+
+    <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
+
         <dependency>
             <groupId>io.karatelabs</groupId>
             <artifactId>karate-junit5</artifactId>

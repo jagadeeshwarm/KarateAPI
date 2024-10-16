@@ -8,6 +8,9 @@ function fn() {
     env: env,
     myVarName: 'someValue'
   }
+  var config ={
+    apiUrl:'https://conduit-api.bondaracademy.com/api/'
+  }
   if (env == 'dev') {
    config.userEmail = 'karatej@gmail.com'
    config.userPassword = 'karate1234'
